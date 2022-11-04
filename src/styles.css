@@ -1,0 +1,96 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background-color: rgb(171, 170, 172);
+    font-family: dogicapixel;
+}
+
+.header > h1 {   
+    font-size: 6em;
+    margin-right: 5%;
+    }
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(159, 159, 160);
+    width: 90vw;
+    height: 20vh;
+    border: solid 1px black;
+}
+
+.main
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-color: rgb(159, 159, 160);
+    width: 90vw;
+    height: 72vh;
+    border: solid 1px black;
+}
+
+/* listas */
+
+.main > ul {
+  list-style: none;
+}
+
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 0 1.5em 0;
+}
+
+li > div
+{
+  margin: 0 1em 0 0;
+}
+
+.titulin
+{
+  font-size: x-large;
+}
+
+
+
+/* fonts */
+
+
+@font-face {
+  /* https://www.dafont.com/es/dogica.font
+  licensed under the SIL Open Font License, Version 1.1. */
+  font-family: dogica;
+  src: url(../src/fnt/dogica.ttf);
+}
+
+@font-face {
+  font-family: dogicapixel;
+  src: url(../src/fnt/dogicapixel.ttf);
+}
+
+@font-face {
+  font-family: dogicapixelbold;
+  src: url(../src/fnt/dogicapixelbold.ttf);
+}
+
+.dogica {
+  font-family: dogica;
+}
+
+.dogicap {
+  font-family: dogicapixel;
+
+}
+
+.dogicapb {
+  font-family: dogicapixelbold;
+}
