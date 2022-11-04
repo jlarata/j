@@ -1,1 +1,26 @@
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background-color: rgb(171, 170, 172);
+}
+
+.header > h1 {   
+    font-size: 4em;
+    margin-right: 1em;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(159, 159, 160);
+    width: 90vw;
+    height: 20vh;
+    border: solid 1px black;
+}
+
