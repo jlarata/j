@@ -94,3 +94,18 @@ li > div
 .dogicapb {
   font-family: dogicapixelbold;
 }
+
+@media only screen and (max-width: 768px)
+{
+body
+{
+  font-size: 0.5em;
+}
+
+
+.titulin
+{
+  font-size: small;
+}
+
+}
